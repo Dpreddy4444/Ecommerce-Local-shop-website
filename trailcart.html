@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="trailcart.css" rel="stylesheet" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
+      rel="stylesheet"
+    />
+    <!-- Load Font Awesome from a CDN -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Super Market</title>
+  </head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <link rel="stylesheet" href="index.css" />
+
+  <body class="dp">
+    <section class="pt-5 mt-5 container">
+      <h2 class="font-weight-bold pt-5">Shopping Cart</h2>
+      <hr />
+    </section>
+    <section id="cart-container" class="container my-5">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Total</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-solid fa-trash"></i></a>
+            </td>
+            <td><img src="#"></td>
+            <td><h5>hi</h5></td>
+            <td><h5>500</h5></td>
+            <td><input class="w-25 pl-1" value="1" type="number"></td>
+            <td><h5>600</h5></td>
+
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cart-bottom" class="container">
+        <div class="row">
+            <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
+                <div class="dptext">
+                    <h5>COUPON</h5>
+                    <p>Enter Your Coupon If You Have Any</p>
+                    <input type="text" placeholder="coupon code">
+                    <button type="button" class="btn btn-outline-warning">APPLY COUPON</button>
+                </div>
+            </div>
+
+            <div class="total col-lg-6 col-md-6 col-12">
+                <div class="dptext">
+                    <h5>CART TOTAL</h5>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="dptext1">Subtotal</h6>
+                        <p>600rs</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="dptext1">Shipping</h6>
+                        <p>600rs</p>
+                    </div>
+                    <hr class="second-hr">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="dptext1">Total</h6>
+                        <p>600rs</p>
+                    </div>
+                    <div class="rig">
+                    <button type="button" class="btn btn-outline-warning">PROCEED TO CHECKOUT</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>

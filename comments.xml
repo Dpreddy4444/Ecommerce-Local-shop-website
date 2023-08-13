@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comments>
+	<comment id="2">
+		<product>
+			milk
+		</product>
+		<user>
+			hi
+		</user>
+		<text>
+			hi ra
+		</text>
+		<rating>
+			3
+		</rating>
+	</comment>
+	<comment id="4">
+		<product />
+		<user>
+			satya
+		</user>
+		<text>
+			good product
+		</text>
+		<rating>
+			4
+		</rating>
+	</comment>
+	<comment id="5">
+		<product>
+			Lollipop
+		</product>
+		<user>
+			satya
+		</user>
+		<text>
+			good product
+		</text>
+		<rating>
+			4
+		</rating>
+	</comment>
+	<comment id="6">
+		<product>
+			milk
+		</product>
+		<user>
+			ganesh
+		</user>
+		<text>
+			not worthy
+		</text>
+		<rating>
+			2
+		</rating>
+	</comment>
+	<comment id="7">
+		<product>
+			milk
+		</product>
+		<user>
+			vijay
+		</user>
+		<text>
+			nice project
+		</text>
+		<rating>
+			4
+		</rating>
+	</comment>
+	<comment id="8">
+		<product>
+			Eggs
+		</product>
+		<user>
+			Smrith
+		</user>
+		<text>
+			product is good
+		</text>
+		<rating>
+			4
+		</rating>
+	</comment>
+	<comment id="8">
+		<product>
+			Eggs
+		</product>
+		<user>
+			sri
+		</user>
+		<text>
+			nice product
+		</text>
+		<rating>
+			4
+		</rating>
+	</comment>
+	<comment id="9">
+		<product>
+			Vegetables
+		</product>
+		<user>
+			Dp Reddy
+		</user>
+		<text>
+			very nice product
+		</text>
+		<rating>
+			4
+		</rating>
+	</comment>
+</comments>
